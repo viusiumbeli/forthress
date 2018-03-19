@@ -229,6 +229,7 @@ include hash.frt
 include new/even.frt
 include new/prime.frt
 include new/primetest.frt
+include new/primeAllot.frt
 
 : enum 0 repeat
     inbuf word drop dup
