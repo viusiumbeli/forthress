@@ -5,13 +5,7 @@
                 if else swap 1 + swap            
                 then 
         loop
-swap
-dup
-2 - 
-if 
-	." no" cr 
-	else ." yes" cr 
-then 
+swap 
 1 cells allot 
 swap
 over
