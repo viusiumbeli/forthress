@@ -1,13 +1,23 @@
 : prime
-        0 swap 
-	dup 1 +  1 do
-                dup r@ %
-                if else swap 1 + swap            
-                then 
-        loop
+        0 0
+	repeat
+	        rot rot
+		1 +
+		2dup %
+                if rot else rot 1 +
+                then
+		dup 3 - not
+		>r >r
+		2dup - not
+		r> r>
+		rot +
+	until
 swap
+drop
 2 - 
 if 
 	." no" cr 
 	else ." yes" cr 
-then ;
+then
+;
+
