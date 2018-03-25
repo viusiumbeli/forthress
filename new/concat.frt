@@ -1,31 +1,15 @@
-: len 
-	-1
-	begin
-		1 +
-		over
-		over
-		+
-		c@
-		not
-	until 
-;
-
 : two-word-len
-	over
-	len
+	2dup
+	count
 	swap
-	drop
-	over
-	len
-	swap
-	drop
+	count
 	+
 ;
 
 : concat
 	two-word-len
 	rot
-	len
+	count
 	rot
 	heap-alloc
 	rot
