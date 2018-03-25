@@ -14,10 +14,5 @@
 	until
 swap
 drop
-2 - 
-if 
-	." no" cr 
-	else ." yes" cr 
-then
 ;
 
