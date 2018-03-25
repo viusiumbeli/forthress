@@ -9,6 +9,7 @@
 : concat
 	two-word-len
 	rot
+	dup
 	count
 	rot
 	heap-alloc
