@@ -232,6 +232,7 @@ include new/primetest.frt
 include new/primeAllot.frt
 include new/primarity.frt
 include new/concat.frt
+include new/printres.frt
 
 : enum 0 repeat
     inbuf word drop dup

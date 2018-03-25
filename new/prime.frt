@@ -14,5 +14,6 @@
 	until
 swap
 drop
+2 - 
 ;
 
